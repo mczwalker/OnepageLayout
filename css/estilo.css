@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+.home{
+	min-height: 662px;
+	background-image: url("../img/home-bg-1.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;  
+  	align-items: flex-end;
+   	flex-direction: column;
+   	justify-content: center;
+}
+.services{
+	height: 604.1px;
+	background-image: url("../img/service-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.works{
+	height: 604.1px;
+	background-image: url("../img/works-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.about_us{
+	height: 604.1px;
+	background-image: url("../img/about-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.news{
+	height: 604.1px;
+	background-image: url("../img/blog-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.testimonials{
+	height: 604.1px;
+	background-image: url("../img/testimonial-bg-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.testimonials{
+	height: 604.1px;
+	background-image: url("../img/testimonial-bg-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.testimonials{
+	height: 604.1px;
+	background-image: url("../img/contact-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.menu{
+	left: 0;
+	position: fixed;
+	width: 330px;
+	height: 100%;
+	text-align: center;
+	align-items: center;
+}
+
+.menu .bg{
+	width: 100%;
+	height: 100%;
+	background-color: #161616;
+	opacity: 0.64;
+	position: absolute;
+}
+
+.logo{
+	display: flex;
+	justify-content:center;
+	margin-top: 34px;
+}	
+.logo img{
+	width: 165px;
+	height: 97.42px;
+	z-index: 9999999;
+}
+.menu a{		
+	position: relative;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #a0a0a0;
+}
+nav ul,
+nav li{
+	list-style: none;
+	margin-top: 30px;
+}
+nav{
+	width: 182px;;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+.box_home{
+
+}
+.title_page{
+	font-size: 100px;
+	font-weight: 800;
+	color: #ffffff;
+	margin-right: 30px;
+}
+.subtitle_page{
+	color: #b1d234;
+	font-size: 40px;
+	margin: 0px;
+}
+
+.menu a:hover{		
+	color: #ffffff;
+	font-weight: 800px;
+}
